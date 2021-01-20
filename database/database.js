@@ -22,16 +22,17 @@ const descriptionSchema = new mongoose.Schema({
 
 const Description = mongoose.model('Description', descriptionSchema);
 
-// const data = require('./data.js');
-// var fakeData = data.data;
+//get Data for one product by using productId
+var getDescriptionForOneProduct = (id, callback) => {
+  console.log('called here', id);
+  Description.find({productId: id}, function(err, description) {
+    if (err) {
+      console.log(err);
+    } else {
+      callback(null, description);
+    }
+  });
+};
 
-// Description.count({}, function(err, count) {
-//   if (count !== 100) {
-//     //seed script to populate DB
-//     Description.insertMany(fakeData)
-//       .then(() => console.log('DATA SUCCESSFULLY SEEDED'))
-//       .catch((err) => console.log('ERROR SEEDING DATA', err));
-//     module.exports.Description = Description;
-//   }
-// });
 module.exports.Description = Description;
+module.exports.getDescriptionForOneProduct = getDescriptionForOneProduct;

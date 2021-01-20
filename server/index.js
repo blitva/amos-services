@@ -9,8 +9,14 @@ app.use(express.static(__dirname + '/../client/dist'));
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
+
+
 app.get('/description/1000', (req, res) => {
-  var data = db.findOne({productId: 1000});
+  var data = db.getDescriptionForOneProduct(1000, (err, description) => {
+    console.log(description);
+  });
+
+  console.log('DATA', data);
   res.send(data);
 });
 
