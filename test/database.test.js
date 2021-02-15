@@ -50,11 +50,6 @@ describe('DATABASE', () => {
     done();
   });
 
-  // test('should insert a record into the database', async (done) => {
-  //   const item = new Description({productId: 900});
-  //  db.collections.descriptions.insert({productId: 900})
-  // });
-
 
   afterAll(async(done) => {
     mongoose.connection.close();
