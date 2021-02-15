@@ -45,22 +45,20 @@ describe('DATABASE', () => {
       });
     });
 
-  afterEach(async ()=> {
+  afterEach(async (done)=> {
     await Description.deleteOne({productId: 900});
+    done();
   });
 
-  afterAll(async () => {
-    await mongoose.connection.close();
-  });
+  // test('should insert a record into the database', async (done) => {
+  //   const item = new Description({productId: 900});
+  //  db.collections.descriptions.insert({productId: 900})
+  // });
 
-  test('should insert a record into the database', (done) => {
-    const item = new Description({productId: 900});
-    item.save()
-      .then(() => {
-        assert(!item.isNew);
-        done();
-      });
-  });
 
+  afterAll(async(done) => {
+    mongoose.connection.close();
+    done();
+  });
 
 });
