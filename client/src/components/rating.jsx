@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { BlueText, ClimatePledgeFriendlyText, RatingText, Image, RatingBox} from '../style.js';
-import StarRatings from 'react-star-ratings';
 import styled from 'styled-components';
 import ReactTooltip from 'react-tooltip';
 import Chart from './ratingChart.jsx';
@@ -12,26 +11,8 @@ const Rating = (props) => {
     <div>
       <RatingBox>
         <div>
-          <span data-tip data-for='test'><StarRatings
-            rating = {5}
-            numberOfStars={5}
-            starRatedColor="orange"
-            starDimension="15px"
-            starSpacing="1px"
-            starEmptyColor="white"
-          >
-          </StarRatings></span>
           <ReactTooltip id="test" place="bottom" effect="solid" multiline={true} backgroundColor="white" textColor='black' border={true} borderColor='black'>
             <div>
-              <StarRatings
-                rating = {5}
-                numberOfStars={5}
-                starRatedColor="orange"
-                starDimension="15px"
-                starSpacing="1px"
-                starEmptyColor="white"
-              >
-              </StarRatings>
             4.7 out of 5
               <br></br>
             12347 global rating

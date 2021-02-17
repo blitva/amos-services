@@ -84,9 +84,9 @@ exports[`Components Should Render ItemPriceDetails component should render corre
   <div>
     FREE Delivery 
     <b>
-      Feb 15th
+      Feb 16th
        - 
-      Feb 20th
+      Feb 21st
     </b>
      for Prime members
   </div>
@@ -105,26 +105,6 @@ exports[`Components Should Render Rating component should render correctly 1`] =
 <div>
   <style__RatingBox>
     <div>
-      <span
-        data-for="test"
-        data-tip={true}
-      >
-        <StarRatings
-          changeRating={null}
-          gradientPathName=""
-          ignoreInlineStyles={false}
-          numberOfStars={5}
-          rating={5}
-          starDimension="15px"
-          starEmptyColor="white"
-          starHoverColor="rgb(230, 67, 47)"
-          starRatedColor="orange"
-          starSpacing="1px"
-          svgIconPath="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
-          svgIconViewBox="0 0 51 48"
-          typeOfWidget="Star"
-        />
-      </span>
       <ReactTooltip
         backgroundColor="white"
         border={true}
@@ -140,21 +120,6 @@ exports[`Components Should Render Rating component should render correctly 1`] =
         wrapper="div"
       >
         <div>
-          <StarRatings
-            changeRating={null}
-            gradientPathName=""
-            ignoreInlineStyles={false}
-            numberOfStars={5}
-            rating={5}
-            starDimension="15px"
-            starEmptyColor="white"
-            starHoverColor="rgb(230, 67, 47)"
-            starRatedColor="orange"
-            starSpacing="1px"
-            svgIconPath="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"
-            svgIconViewBox="0 0 51 48"
-            typeOfWidget="Star"
-          />
           4.7 out of 5
           <br />
           12347 global rating
