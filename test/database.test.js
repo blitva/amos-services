@@ -34,10 +34,7 @@ describe('DATABASE', () => {
     console.log(err);
   })
   mongoose.connection
-    .on('error', console.error.bind(console, 'connection error:'))
-    .once('open', function () {
-      console.log('CONNECTED TO MONGO FOR TESTING');
-    });
+    .on('error', console.error.bind(console, 'connection error:'));
 
     beforeEach((done) => {
       db.collections.descriptions.drop(() => {
