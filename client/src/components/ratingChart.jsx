@@ -24,7 +24,7 @@ class StarChart extends React.Component {
 
   getStarRatings (id) {
     let productId = id;
-    axios.get(`http://ec2-174-129-73-213.compute-1.amazonaws.com:4006/Reviews/getReviewSummary/${productId}`)
+    axios.get(`http://ec2-174-129-73-213.compute-1.amazonaws.com:4006/Reviews/getReviewSummary/${productId}`, {timeout: 2000})
       .then((response) => {
         let starFive = parseInt(response.data.fiveStar.slice(0, response.data.fiveStar.length - 1));
         let starFour = parseInt(response.data.fourStar.slice(0, response.data.fourStar.length - 1));

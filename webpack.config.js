@@ -1,4 +1,5 @@
 const BrotliPlugin = require('brotli-webpack-plugin');
+
 module.exports = {
   entry: __dirname + '/client/src/index.jsx',
   module: {
@@ -13,7 +14,7 @@ module.exports = {
           },
         }
       }
-    ]
+    ],
   },
   output: {
     filename: 'description_bundle.js',
@@ -25,6 +26,7 @@ module.exports = {
       test: /\.js$/,
       threshold: 10240,
       minRatio: 0.8
-    })
+    }),
+    new Dotenv()
   ]
 };
