@@ -44,7 +44,6 @@ class StarChart extends React.Component {
       });
   }
 
-
   render() {
 
     return (
