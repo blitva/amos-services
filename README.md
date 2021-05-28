@@ -16,9 +16,9 @@ Built with the MERN stack using MongoDB, and styled using React Styled-Component
 ## Setup on Local:
 
 1. git clone 
-2. install dependencies with npm install
-3. start server with npm run server-dev
-4. build build by running npm run react-dev
+2. install dependencies with "npm install"
+3. start server with "npm run server-dev"
+4. build bundle by running "npm run build"
 
 ## Usage
 
