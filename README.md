@@ -19,26 +19,7 @@ Built with the MERN stack using MongoDB, and styled using React Styled-Component
 2. install dependencies with "npm install"
 3. start server with "npm run server-dev"
 4. build bundle by running "npm run build"
+5. verify app is running at "http://localhost:4004/:id (for id values 1000-1099)
 
-## Usage
 
-> Some usage instructions
-
-## Requirements
-
-An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
-
-- Node 6.13.0
-- etc
-
-## Development
-
-### Installing Dependencies
-
-From within the root directory:
-
-```sh
-npm install -g webpack
-npm install
-```
 
