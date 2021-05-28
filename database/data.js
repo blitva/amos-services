@@ -133,6 +133,8 @@ var generateData = () => {
   //need the similar items except for different colors to have the same description
   var description = null;
   var configuration = null;
+
+
   //loop through numbers starting at 1000 to 1100
   for (var i = 1000; i < 1100; i++) {
     var newItemObject = {};
@@ -180,8 +182,10 @@ var generateData = () => {
     newItemObject.isPrimeFreeOneDay = generateBooleanValue();
     //set property isFreeDelivery to either true or false
     newItemObject.isFreeDelivery = generateBooleanValue();
+
     data.push(newItemObject);
   }
+
   return data;
 };
 
