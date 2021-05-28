@@ -13,11 +13,12 @@ Built with the MERN stack using MongoDB, and styled using React Styled-Component
 
   ![Description App Single](https://user-images.githubusercontent.com/66794449/118710808-0b960000-b7dc-11eb-95ca-7adc7331bd8a.jpg)
   
-## Table of Contents
+## Setup on Local:
 
-1. [Usage](#Usage)
-1. [Requirements](#requirements)
-1. [Development](#development)
+1. git clone 
+2. install dependencies with npm install
+3. start server with npm run server-dev
+4. build build by running npm run react-dev
 
 ## Usage
 
