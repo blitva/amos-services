@@ -38,12 +38,12 @@ These instructions will get you a copy of the project up and running on your loc
 
 These projects are the other microservices involved. 
 
-• Photos Service - Alek O. <br />
-• [Checkout Service - Alek O.] (https://github.com/blitva/checkout-service) <br />
-• Customer Questions Service - Justin R. <br />
-• Reviews Service - Barsha S. <br />
-• Product Features Service - Justin R. <br />
-• Navigation Bar - Justin R. <br />
-• Footer - Alek O. <br />
+• [Photos Service - Alek O.](https://github.com/blitva/photos-service) <br />
+• [Checkout Service - Alek O.](https://github.com/blitva/checkout-service) <br />
+• [Customer Questions Service - Justin R.](https://github.com/blitva/customer-questions-service) <br />
+• [Reviews Service - Barsha S.](https://github.com/blitva/reviews-service) <br />
+• [Product Features Service - Justin R.](https://github.com/blitva/product-features-service) <br />
+• [Navigation Bar - Justin R.](https://github.com/blitva/nav-bar) <br />
+• [Footer - Alek O.](https://github.com/blitva/footer) <br />
 
 
