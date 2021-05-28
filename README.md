@@ -39,7 +39,7 @@ These instructions will get you a copy of the project up and running on your loc
 These projects are the other microservices involved. 
 
 • Photos Service - Alek O. <br />
-• Checkout Service - Alek O. <br />
+• [Checkout Service - Alek O.] (https://github.com/blitva/checkout-service) <br />
 • Customer Questions Service - Justin R. <br />
 • Reviews Service - Barsha S. <br />
 • Product Features Service - Justin R. <br />
