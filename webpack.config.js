@@ -26,7 +26,6 @@ module.exports = {
       test: /\.js$/,
       threshold: 10240,
       minRatio: 0.8
-    }),
-    new Dotenv()
+    })
   ]
 };
